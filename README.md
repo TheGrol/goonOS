@@ -6,7 +6,7 @@ There's not really much to it right now, but it's planned to be incredibly light
 ### Plans for the OS
 
 - Lightweight
-- Runnable in a terminal
+- Has basic terminal features, such as read files, edit files, super user capabilities, etc.
 - A basic window manager if enough progress is made
 
 ### So far, the OS
