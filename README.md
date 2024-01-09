@@ -35,13 +35,13 @@ example: goonOS, ver. a.b.c
 <pre>
   4    .    10    .    7  
   ↓         ↓          ↓  
-4th RC   October   7 patches
+4th RC   October   Patch Number
 </pre>
 
-Build Dependencies
+Build Dependencies & How To Compile
 -----
 
-### Linux
+### Dependencies Required
 
 - grub-common
 - grub-mkrescue
@@ -49,9 +49,14 @@ Build Dependencies
 - build-essential
 - xorriso
 
-### Windows
+### Windows Compilation
 
 - Install WSL
 - install the Ubuntu subsystem(wsl.exe --install Ubuntu-23.04)
-- in WSL, install the Linux dependencies above
+- in WSL, install the Linux dependencies listed above
+- run 'make goonOS.iso'
+
+### Linux Compilation
+
+- Install dependencies listed above
 - run 'make goonOS.iso'
