@@ -1,4 +1,4 @@
-# goonOS, an Operating System for goons, by goons
+# goonOS, an Operating System for goons, by goons.
 
 There's not really much to it right now, but it's planned to be incredibly lightweight and accessible
 -----------------------
@@ -13,12 +13,12 @@ So far, the OS
 System Requirements
 ---
 -25MB RAM
-(it will not boot in Virtualbox without 25MB)
+(it will not boot in Virtualbox otherwise)
 
 ------
 Rules on Version Releases.
 
-example: GrolOS, ver. a.b.c
+example: goonOS, ver. a.b.c
 
 - 'a' notates the major update number 
 - 'b' means the month it was compiled
