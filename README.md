@@ -54,4 +54,4 @@ Build Dependencies
 - Install WSL
 - install the Ubuntu subsystem(wsl.exe --install Ubuntu-23.04)
 - in WSL, install the Linux dependencies above
-- run make goonOS.iso
+- run 'make goonOS.iso'
