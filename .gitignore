@@ -1,6 +1,5 @@
 /.git
-/kernel.o
-/loader.o
-/makefileZone.Identifier
-/mykernel.iso
-/workspace.code-workspace
+/*.o
+/*.Identifier
+/*.iso
+/*.code-workspace
