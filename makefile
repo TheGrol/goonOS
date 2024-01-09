@@ -20,7 +20,7 @@ goonOS.iso: goonOS.bin
 	mkdir iso
 	mkdir iso/boot
 	mkdir iso/boot/grub
-	cp mykernel.bin iso/boot/goonOS.bin
+	cp goonOS.bin iso/boot/goonOS.bin
 	echo 'set timeout=0' >> iso/boot/grub/grub.cfg
 	echo 'set default=0' >> iso/boot/grub/grub.cfg
 	echo '' >> iso/boot/grub/grub.cfg
