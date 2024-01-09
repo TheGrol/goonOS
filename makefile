@@ -34,3 +34,6 @@ goonOS.iso: goonOS.bin
 run: goonOS.iso
 	(killallVirtualBox && sleep 1) || true
 	VirtualBoxVM --startvm "help" & 
+
+clean:
+	rm -f $(objects) goonOS.bin goonOS.iso
