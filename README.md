@@ -1,6 +1,4 @@
-# goonOS
-
-This is the First Iteration of goonOS, an Operating System by goons, for goons.
+# goonOS, an Operating System for goons, by goons
 
 There's not really much to it right now, but it's planned to be incredibly lightweight and accessible
 -----------------------
@@ -12,6 +10,10 @@ So far, the OS
 - Boots as a .BIN file
 - ~~does not boot as an .ISO~~ Boots as an ISO as of Version 1.0.0
 
+System Requirements
+---
+-25MB RAM
+(it will not boot in Virtualbox without 25MB)
 
 ------
 Rules on Version Releases.
@@ -24,3 +26,9 @@ example: GrolOS, ver. a.b.c
 
 example, a **4.10.7** release means that it's the 4th major update of the kernel, it was compiled in October, and that there were 7 approved contributions after Kernel Version 4.0.0
 
+-----
+Dependencies to build .ISO manually
+(On Linux)
+
+- grub-common
+- grub-pc-bin 
