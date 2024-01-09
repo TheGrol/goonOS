@@ -12,10 +12,10 @@ So far, the OS
 
 System Requirements
 ---
--25MB RAM
+- 25MB RAM
 (it will not boot in Virtualbox otherwise)
--x86 compatible CPU
--At least 6MB of Storage
+- x86 compatible CPU
+- At least 6MB of Storage
 
 ------
 Rules on Version Releases.
