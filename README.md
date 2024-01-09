@@ -3,13 +3,13 @@
 There's not really much to it right now, but it's planned to be incredibly lightweight and accessible
 -----------------------
 
-Plans for the OS
+### Plans for the OS
 
 - Lightweight
 - Runnable in a terminal
 - A basic window manager if enough progress is made
 
-So far, the OS
+### So far, the OS
 
 - Boots as a .BIN file
 - ~~does not boot as an .ISO~~ Boots as an ISO as of Version 1.0.0
@@ -22,8 +22,8 @@ These are required for the OS to be able to boot.
 - x86 compatible CPU
 - At least 6MB of Storage
 
+Version Rules
 ------
-Rules on Version Releases.
 
 example: goonOS, ver. a.b.c
 
@@ -31,14 +31,16 @@ example: goonOS, ver. a.b.c
 - 'b' → Month of compilation
 - 'c' → Number of patches/hotfixes in the current R.C
 
-Example:  
-<pre>4    .    10    .    7</pre>  
-<pre>↓         ↓          ↓</pre>
-<pre>4th RC  October    7 patches</pre>
+### Release Example
+<pre>
+  4    .    10    .    7  
+  ↓         ↓          ↓  
+4th RC   October   7 patches
+</pre>
 
------
 Build Dependencies
-(On Linux)
+-----
 
+### Linux
 - grub-common
 - grub-pc-bin 
