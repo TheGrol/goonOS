@@ -1,6 +1,6 @@
 # goonOS
 
-This is the First Iteration of goonOS, an Operating System.
+This is the First Iteration of goonOS, an Operating System by goons, for goons.
 
 There's not really much to it right now, but it's planned to be incredibly lightweight and accessible
 -----------------------

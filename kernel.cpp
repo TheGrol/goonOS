@@ -18,9 +18,9 @@ extern "C" void callConstructors()
 
 extern "C" void kernelMain(void* multiboot_structure, unsigned int magicnumber)
 {
-    printf("Welcome to goonOS");
-    printf("A system by goons, for goons");
-    printf("The Future is now.");
+    printf("Welcome to goonOS\n");
+    printf("A system by goons, for goons\n");
+    printf("The Future is now.\n");
     printf("----------------------");
     
 
