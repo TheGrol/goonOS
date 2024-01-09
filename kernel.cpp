@@ -20,7 +20,7 @@ extern "C" void kernelMain(void* multiboot_structure, unsigned int magicnumber)
 {
     printf("Welcome to goonOS");
     printf("A system by goons, for goons");
-    printf("The Future is now.")
+    printf("The Future is now.");
     printf("----------------------");
     
 
