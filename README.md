@@ -42,5 +42,16 @@ Build Dependencies
 -----
 
 ### Linux
+
 - grub-common
+- grub-mkrescue
 - grub-pc-bin 
+- build-essential
+- xorriso
+
+### Windows
+
+- Install WSL
+- install the Ubuntu subsystem(wsl.exe --install Ubuntu-23.04)
+- in WSL, install the Linux dependencies above
+- run make goonOS.iso

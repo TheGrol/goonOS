@@ -1,3 +1,6 @@
+#include "globaldescriptortable.h"
+
+
 void printf(char* str)
 {
     unsigned short* VideoMemory = (unsigned short*)0xb8000;
@@ -19,7 +22,7 @@ extern "C" void callConstructors()
 extern "C" void kernelMain(void* multiboot_structure, unsigned int magicnumber)
 {
     printf("Welcome to goonOS!");
-    
+    GlobalDescriptorTable gdt;
 
     while(1);
 }
