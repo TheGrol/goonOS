@@ -20,6 +20,7 @@ extern "C" void kernelMain(void* multiboot_structure, unsigned int magicnumber)
 {
     printf("GoonOS, a New Operating System");
     printf("------------------------------");
+    
 
     while(1);
 }
