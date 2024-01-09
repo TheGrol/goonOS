@@ -3,7 +3,11 @@
 There's not really much to it right now, but it's planned to be incredibly lightweight and accessible
 -----------------------
 
-The intent is to make an OS that is lightweight, can be ran in a terminal, or can use a very basic window manager, if it progresses that far.
+Plans for the OS
+
+- Lightweight
+- Runnable in a terminal
+- A basic window manager if enough progress is made
 
 So far, the OS
 
@@ -12,8 +16,9 @@ So far, the OS
 
 System Requirements
 ---
+These are required for the OS to be able to boot.
+
 - 25MB RAM
-(it will not boot in Virtualbox otherwise)
 - x86 compatible CPU
 - At least 6MB of Storage
 
@@ -22,14 +27,17 @@ Rules on Version Releases.
 
 example: goonOS, ver. a.b.c
 
-- 'a' notates the major update number 
-- 'b' means the month it was compiled
-- 'c' means that this version is the most recently created after an approved contribution.
+- 'a' → Main release candidate
+- 'b' → Month of compilation
+- 'c' → Number of patches/hotfixes in the current R.C
 
-example, a **4.10.7** release means that it's the 4th major update of the kernel, it was compiled in October, and that there were 7 approved contributions after Kernel Version 4.0.0
+Example:  
+<pre>4    .    10    .    7</pre>  
+<pre>↓         ↓          ↓</pre>
+<pre>4th RC  October    7 patches</pre>
 
 -----
-Dependencies to build .ISO manually
+Build Dependencies
 (On Linux)
 
 - grub-common
