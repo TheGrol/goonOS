@@ -6,7 +6,7 @@
     class InterruptManager
     {
         public:
-        static uint32_t handleInterrupt(uint8_t interruptNumber, uint32_t esp);
+        static unsigned long handleInterrupt(unsigned char interruptNumber, unsigned long esp);
     };
 
     #endif
