@@ -1,5 +1,5 @@
 #include "globaldescriptortable.h"
-
+#include "port.h"
 
 void printf(char* str)
 {
@@ -50,6 +50,7 @@ extern "C" void kernelMain(void* multiboot_structure, unsigned int magicnumber)
 {
     printf("Welcome to goonOS!");
     GlobalDescriptorTable gdt;
-
+    Port16Bit b16 = Port16Bit(1);
+    
     while(1);
 }
