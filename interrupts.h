@@ -1,4 +1,4 @@
-#ifndef __INTERUPTS_H
+#ifndef __INTERRUPTS_H
 #define __INTERRUPTS_H
 #include "types.h"
 #include "ports.h"
