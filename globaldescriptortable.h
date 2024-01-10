@@ -1,5 +1,5 @@
-#ifndef __GDT_H
-#define __GDT_H
+#ifndef __globaldescriptortable_H
+#define __globaldescriptortable_H
 
 
 class GlobalDescriptorTable {
