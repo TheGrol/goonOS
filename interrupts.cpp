@@ -2,7 +2,7 @@
 
 void printf(char* str);
 
-uint32_t InterruptManager::handleInterrupt(uint8_t interruptNumber, uint32_t esp)
+unsigned long InterruptManager::handleInterrupt(uint8_t interruptNumber, unsigned long esp)
 {
 
     printf(" INTERRUPT");
